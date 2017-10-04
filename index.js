@@ -41,3 +41,7 @@ function consoletag(){
 	console.log('I am a great function');
 }
 consoletag();
+
+//Problem 6
+
+var door = prompt('Choose a door! 1, 2, or 3')
