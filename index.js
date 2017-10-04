@@ -14,3 +14,7 @@ function devide(l,e){
 	console.log(sum)
 }devide(4,2)
 
+//Problem 2
+
+var cararray = [['Vanquish','Valkyrie','DB9'],['325i','X5','3 Series'],['Flying Spur','Mulsanne','Bentayga']];
+console.log(cararray[2][1]);
