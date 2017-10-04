@@ -37,3 +37,7 @@ showname('laven');
 
 //Problem 5
 
+function consoletag(){
+	console.log('I am a great function');
+}
+consoletag();
