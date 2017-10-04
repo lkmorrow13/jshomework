@@ -23,8 +23,17 @@ console.log(cararray[2][1]);
 
 var num = prompt('What is your favorite number?');
 if(parseInt(num) < 100){
-	alert('Less than 100')
+	alert('Less than 100');
 }else{
-	parseInt((num) > 100)
-	alert('More than 100')
+	alert('You put in ' + (num) + ' which is more than 100');
 }
+
+//Problem 4
+
+function showname(name){
+	alert(name);
+}
+showname('laven');
+
+//Problem 5
+
