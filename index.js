@@ -44,4 +44,11 @@ consoletag();
 
 //Problem 6
 
-var door = prompt('Choose a door! 1, 2, or 3')
+var door = prompt('Choose a door! 1, 2, or 3');
+if(parseInt(door) === 1){
+	alert('You have won a goat!!!');
+}else if(parseInt(door) === 2){
+	alert('You have won a new Jeep!!!');
+}else if(parseInt(door) === 3){
+	alert('You have won this amazing giant can of worms!!!!');
+}
